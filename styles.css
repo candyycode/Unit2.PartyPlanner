@@ -13,11 +13,20 @@ body {
     padding: 20px;
 }
 
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 #header-container h1 {
     margin-bottom: 10px;
     color: yellow;
     text-shadow: 0 0 3px black;
     font-size: 40px;
+    animation: spin 2s linear 1 forwards;
 }
 
 #header-container h2 {
