@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Party Planner</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <div id="header-container">
+    <h1>Welcome to the Party Planner!</h1>
+    <h2>Enter your event details below and let us plan the perfect party for you!</h2>
+    </div>
+
+    <div id="center-container">
+    <div id="create-party">
+      <!-- name, time, location, description -->
+      <form action="submit">
+        <label>Party Name</label>
+        <input type="text" name="title" />
+        <label>Time</label>
+        <input type="datetime-local" name="date" />
+        <label>Location</label>
+        <input type="text" name="location" />
+        <label>Description</label>
+        <input type="text" name="description" />
+        <button type="submit" name="add-button">Add</button>
+      </form>
+    </div>
+
+    <ul id="display-parties"></ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

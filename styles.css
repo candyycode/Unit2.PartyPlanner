@@ -1,0 +1,66 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/celebration-background-with-colorful-party-flag-falling-confetti_1314-2538.jpg?w=900&t=st=1706520127~exp=1706520727~hmac=77421c951c31f414710816ff2508447e8f92e7b60c2ba1f90aed5228ace7c365);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#header-container h1 {
+    margin-bottom: 10px;
+    color: yellow;
+    text-shadow: 0 0 3px black;
+    font-size: 40px;
+}
+
+#header-container h2 {
+    color: yellow;
+    text-shadow: 0 0 3px black;
+    font-size: 30px;
+}
+
+#center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0;
+    background-color: yellow;
+    font-size: 30px;
+    text-align: center;
+}
+#create-party {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow: 0 0 100px rgba(250, 249, 249, 0.3);
+}
+
+#create-party form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#create-party form label {
+    margin-bottom: 5px;
+}
+
+#create-party form input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#create-party form button {
+    width: 100%;
+}
